@@ -1,51 +1,40 @@
 
 body {
 	font-family: arial;
-	font-size: 20px;
+	font-size: 25px;
 	background-image: url(../phancongtrongnhan.github.io/thumb2.jpg);
+}
+#chu {
+	list-style-type: none;
+	background: blanchedalmond;
+	opacity: 0.5;
+	text-align: center;;
 }
 #noidung ul{
 	list-style-type: none ;
-	background : red;
+	background : blanchedalmond;
 	text-align: center;
+	opacity: 0.5
 } 
 #noidung ul li{
-	color: yellow;
+	color: rgb(128, 128, 78);
 	display: inline-table;
-	width: 120px;
+	width: 240px;
 	height: 40px;
 	line-height: 40px;
 	
 }
+#noidung ul li a{
+	color:  rgb(128, 128, 78);
+	text-decoration: none;
+	display: block;
+}
+#noidung ul li a:hover{
+	background: blanchedalmond;
+	color: rgb(0, 159, 252);
+}
 
 
-#manchinh{
-	background-color: rgb(211, 84, 84);
-	width: 1100px;
-	height: auto;
-	margin: 0  auto;
-}
-#header{
-	border-bottom: 1px solid;
-	padding: 10px 0px;
-}
-.clearfix{
-	clear: both;
-}
-ul li{
-	list-style: none;
-}
-ul#menu li{
-	float: left;
-}
-#logo{
-	float: left;
-	height: 90px;
-}
-#logo img{
-	height: 100%;
-	width: auto;
-}
 
 ul#menu{
 	float: right;
