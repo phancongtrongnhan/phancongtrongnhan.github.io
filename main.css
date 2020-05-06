@@ -1,8 +1,23 @@
+
 body {
 	font-family: arial;
 	font-size: 20px;
-	background-image: url(..\phancongtrongnhan.github.io/thumb2.jpg);
+	background-image: url(../phancongtrongnhan.github.io/thumb2.jpg);
 }
+#noidung ul{
+	list-style-type: none ;
+	background : red;
+	text-align: center;
+} 
+#noidung ul li{
+	color: yellow;
+	display: inline-table;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	
+}
+
 
 #manchinh{
 	background-color: rgb(211, 84, 84);
