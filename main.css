@@ -3,6 +3,7 @@ body {
 	font-family: arial;
 	font-size: 25px;
 	background-image: url(../phancongtrongnhan.github.io/thumb2.jpg);
+	background-size: auto;
 }
 #chu {
 	list-style-type: none;
