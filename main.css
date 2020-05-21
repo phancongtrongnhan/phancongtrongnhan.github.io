@@ -1,10 +1,10 @@
 
 body {
 	font-family: arial;
-	font-size: 25px;
+	font-size: 200px;
 	background-image: url(../phancongtrongnhan.github.io/thumb2.jpg);
 	background-size: auto;
-	background-clip: url(https://tenor.com/bdlGf.gif);
+	background-image: url(https://tenor.com/bdlGf.gif);
 }
 #chu {
 	list-style-type: none;
