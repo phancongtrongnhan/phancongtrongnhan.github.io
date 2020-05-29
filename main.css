@@ -1,35 +1,60 @@
+*{margin: 0px; padding: 0px;}
 
 body {
-	font-family: arial;
+	font-family: serif;
 	font-size: 30px;
-	background-image:url(garen.gif);
+	font-weight: bolder;
+	/* background-image:radial-gradient(rgb(250, 232, 235), rgb(253, 175, 188), rgb(148, 2, 148)); */
+	background-image: url(../phancongtrongnhan.github.io/a.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+
 }
-#chu {
-	list-style-type: none;
+#header {
+	display: inline;
+	font-family: serif;
 	background: blanchedalmond;
 	text-align: center;
-}
-#noidung ul{
-	list-style-type: none ;
-	background : blanchedalmond;
-	text-align: center;
-} 
-#noidung ul li{
-	color: rgb(128, 128, 78);
-	display: inline-table;
-	padding: 10px 20px 20px 40px;
-	line-height: 40px;
 	
 }
-#noidung ul li a{
-	color:  rgb(128, 128, 78);
+#header li {
+	list-style: none;
+	text-decoration: none;
+}
+.clear{clear: both;}
+#menu{width: 960px;
+	 height: 50px;
+	 background: #f8f8f8;
+	 margin: 0px auto;
+	 }
+#main-menu{background-color:#00a69b;
+	padding: 11px 27px;
+	margin-top: 30px;}
+/* #menu ul{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}  */
+#main-menu ul li{
+	float: left;
+
+	color: rgb(128, 128, 78);
+	display: inline-table;
+	padding: 5px 10px;
+	/* line-height: 40px; */
+}
+#main-menu ul li a{
 	text-decoration: none;
 	display: block;
+	color: floralwhite;
 }
-#noidung ul li a:hover{
+#main-menu ul li a:hover{
 	background: blanchedalmond;
 	color: rgb(0, 159, 252);
+	  text-decoration: none;
 }
+
