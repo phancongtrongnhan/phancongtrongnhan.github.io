@@ -4,7 +4,7 @@
 }
 
 body {
-    background-size: 100% ;
+    background-size: cover;
     -webkit-perspective: 800;
     background-image: url('../images/lin.jpg' );
     background-repeat: no-repeat;
